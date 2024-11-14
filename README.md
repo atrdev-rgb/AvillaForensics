@@ -1,6 +1,15 @@
 ![logo avilla 800](https://user-images.githubusercontent.com/102838167/161397689-5df01560-546c-4d82-94a6-e4a3b677875f.png)
 
-# (NEW) Avilla Forensics 3.6
+## "What we have done for ourselves alone dies with us; what we have done for others and the world remains and is immortal." (Albert Pike)
+
+# *** (NEW) *** Avilla Forensics 3.8
+
+- Finally, version 3.8 BETA of Avilla Forensics is available! 
+- With just over three years of existence, the tool has evolved remarkably, becoming indispensable for experts and users around the world.
+- The big highlight of this version is its ability to deal with cases involving mobile devices that use newer operating systems, such as Android 14 and 15. Starting with this update, it is now possible to perform the APK Downgrade on Android 14. In addition, a advanced module that allows access to more storage regions, surpassing traditional collections.
+- Another innovative feature is the possibility of performing data acquisition simultaneously on multiple devices, meeting complex demands that require this type of approach.
+- Finally, version 3.8 brings the powerful Avilla App Full Extraction as a complement. With this tool, you can collect data from any application on the DATA partition, without the need for root access or APK Downgrade. The feature is even more robust by allowing the extraction of data from secondary profiles registered on the device.
+- Downgrade support for over 400 apps. 
 
 Avilla Forensics is located in first place in the award international Forensics 4:Cast 🥇🏆, in the tool category no commercial. Announcement made at the event from the SANS Institute.
 
@@ -12,22 +21,79 @@ Thanks for the votes, without you this would not be possible.
 
 - ACADEMIA DE FORENSE DIGITAL - AFD: 
 - https://academiadeforensedigital.com.br/
-- https://academiadeforensedigital.com.br/treinamentos/treinamento-de-avilla-forensics/ (26, 27, 28 e 29 de Fevereiro de 2024 das 19h às 23h)  
+- https://academiadeforensedigital.com.br/treinamentos/treinamento-de-avilla-forensics/ (Gravado)
 
-## 📋 Webinars.
-- Webinar:  [![Youtube Badge](https://img.shields.io/badge/-YouTube-ff0000?style=flat-square&labelColor=ff0000&logo=youtube&logoColor=white&link=https://www.youtube.com/watch?v=zQigjIIkBjQ)](https://www.youtube.com/watch?v=zQigjIIkBjQ)
+## 📋 About
 
-- New Webinar: https://www.youtube.com/watch?v=H-rtMs3DgmM
-- In this Webinar we will welcome our Professor and Civil Police Agent of SP, Daniel Avilla, who will share with us what is new about the new version of the Avilla Forensics tool.
-- Prof. Daniel Avilla teaches the "Avilla Forensics – Official Training" and "Avilla Forensics Bootcamp" training courses at AFD, Civil Police Agent in the State of São Paulo, President of the Technology Development Committee for Mobile Forensics at APECOF, Graduate in Systems Analysis and Postgraduate in Computer Forensics and developer of the Avilla Forensics tool, a tool that allows the forensic acquisition of applications on any device, going beyond basic market tools.
-
-- Prof. Avilla will share with us what's new about the new version of Avilla Forensics.
+- Avilla Forensics is a free mobile forensic tool, launched in February 2021, designed to assist investigators in obtaining information and evidence from mobile devices.
+- Developed by São Paulo State Police Officer Daniel Avilla, this tool enables logical data extraction and the conversion of backups to formats compatible with detailed forensic analyses, such as IPED software or Cellebrite Physical Analyser.
+- In version 3.7 of Avilla Forensics, numerous improvements and new functionalities for mobile data extraction and analysis were implemented. This update introduced an integrity system that generates AES-256 encrypted logs (.avilla), containing hashes of the collected files. In addition to encryption, the .avilla file features an HMAC signature, creating a second layer of protection for file integrity.
+- Version 3.7 significantly enhances the capabilities for data extraction and analysis, offering new integrity functionalities and advanced tools for handling backups and extracting app data. These improvements make the tool even more robust and effective for forensic investigations.
+- With features that allow interaction with mobile devices through the Android Debug Bridge (ADB) interface, Avilla Forensics offers a versatile tool that facilitates communication with the device.
+- Developed in C#, the tool is compatible and operates stably in Windows 10/11 environments, including their latest updates.
+- The main feature of the tool is the APK Downgrade module, which enables data collection from over 15 applications, making it an indispensable tool for forensic investigations.
+- The Avilla Forensics suite does not replace existing tools, but complements them, offering new additional possibilities.
   
-- In this episode, we'll talk about:
-✅ What's new in Avilla Forensics?
-✅ Who can have access to this tool?
-✅ Live practical examples!
-✅ And much more!
+- From version 3.8 onwards, it is possible to perform APK Downgrade on Android 14.
+
+  ![Captura de tela 2024-10-25 000719](https://github.com/user-attachments/assets/d02c82fc-1226-4522-b37b-04b007211102)
+  
+- Module that exploits vulnerabilities in Android 12 and 13, to collect data from applications located in the DATA region without the need for Root or Downgrade.
+
+  ![Captura de tela 2024-09-14 011932](https://github.com/user-attachments/assets/ce79232d-2cb2-4cdf-9304-ca7b6bffeced)
+
+- From version 3.8 onwards it is possible to collect data on multiple devices at the same time.
+
+  ![Captura de tela 2024-09-28 102033](https://github.com/user-attachments/assets/ab3cd0ca-2539-4df4-8e7b-8fcc6869bbfd)
+
+
+## 📋 Webinars
+
+- (NEW) Avilla Forensics Webinar: Downgrade from Android 14 with Avilla Forensics 3.7.5. With Prof. Daniel Avilla - Scheduled for October 15th. 2024 - AFD (https://www.youtube.com/watch?v=08djLn5i440)
+
+- (NEW) Avilla App Full Extraction: FORENSICS MOBILE - NEW EXTRACTION METHODS USING AVILLA FORENSICS AND AVILLA FULL APP + IPED - Oct 4 2024 - Emerson Borges (https://www.youtube.com/watch?v=MUmCNDRlroU)
+
+- Avilla App Full Extraction: Security Space collection of Xiaomi models - September 19th. 2024 - Daniel Avilla ([https://www.youtube.com/watch?v=08djLn5i440](https://www.youtube.com/watch?v=HrpAam6zRu0))
+
+- Avilla Forensics: WI-FI debugging and pairing with Avilla Forensics: - September 12th. 2024 - Daniel Avilla (https://www.youtube.com/watch?v=VoNf0baZa_g&t)
+
+- Avilla Forensics: WhatsApp Downgrade APK, for data collection, on a Moto G14 with Android 14: - September 11th. 2024 - Daniel Avilla (https://www.youtube.com/watch?v=zA_Fw8EsmQo)
+
+- Avilla Forensics: APK Downgrade of WhatsApp on Android 14 with the aim of collecting forensic data: -  September 6th. 2024 - Daniel Avilla (https://www.youtube.com/watch?v=gELHf74AIhQ&t)
+
+- Avilla Forensics: Webinar: Avilla Forensics 3.7 - What's new? With Prof. Daniel Avilla - September 3rd. 2024 - AFD (https://www.youtube.com/watch?v=HHPptOdZLaA)
+
+- Avilla Forensics: Security in the palm of your hand: A meeting with Daniel Avilla to talk about Digital Forensics on Mobile Devices - July 4 2024 - Vincit College  (https://www.youtube.com/watch?v=g8gJC1nUngM&t)
+
+- Avilla Forensics: What's New in the New Version - Broadcast live on April 23. 2024 - AFD (https://www.youtube.com/watch?v=H-rtMs3DgmM)
+
+- How to Simulate Applications using Avilla App Simulator (Step by Step Tutorial) - April 23. 2024 - By Wesley Rodrigo - AFD (https://youtu.be/3WNStFaztfc?si=7QUu5SFZ-eONvGRt)
+  
+- Avilla Universal Whatsapp Extraction - January 5th. 2024 (https://youtu.be/jqF89Xyv-YA?si=OknE6Oo6MLaZCVUj)
+
+- Avilla App Simulator - April 6th. 2023 - AFD (https://www.youtube.com/live/6G4Y3_pk18A?si=Rww8JkobPh9bqKkI) 
+
+- AVILLA FORENSICS 3.5 -  March 17th. 2023 UCAPEM GROUP - (https://www.youtube.com/live/5ndIo1Kx8fk?si=RIKdix6wDkKVVLuj)
+
+- Signal Forensics: Data Extraction and Decryption on Signal -  Nov 24th. 2022 - AFD (https://www.youtube.com/live/NezodJcGyQ4?si=0piGWLhHz1Xbf9hT)
+
+- MOBILE FORENSIC EXTRACTION - USING AVILLA FORENSICS SOFTWARE - LOGIC EXTRACTION AND APK DOWNGRADE - Aug 5 2022 - By Emerson Borges (https://youtu.be/KuSmct1Qa30?si=-D2LbqtkfORdcgfQ)
+
+- Automatic WhatsApp audio transcription with Avilla Forensics - Jul 6. 2022 - AFD (https://www.youtube.com/live/EyYayEqmpkE?si=Cdd8QfP1IcXehNti)
+  
+- Android Forensics with Avilla Forensics - March 15th. 2022 - AFD (https://www.youtube.com/live/zQigjIIkBjQ?si=uanfwVUt33IqlWXt)
+
+
+- I have a passion for mobile digital forensics and the art of data extractions.
+
+- "The pursuit of truth and justice through science."
+- Daniel Avilla is a professor of Mobile Device Forensics at several renowned institutions, including the Digital Forensics Academy (AFD), UCAPEM GROUP in Ecuador, the Postgraduate Program in Digital Investigation at WB Educacional, Vincit College, and MM Forense. In addition to his academic role, Daniel serves as a Civil Police Officer in the State of São Paulo and as Vice-Director of Technology at the National Association of Forensic Computing Experts (APECOF). He holds a degree in Systems Analysis and a postgraduate specialization in Computer Forensics. Daniel has advanced technical expertise in Mobile Devices and Advanced Extraction methods (such as Chip Off, EDL, and ISP), certified by the AFD. With a research career in technology dating back to 1998, he is the creator of Avilla Forensics — a free tool, widely recognized and internationally awarded, that enhances forensic acquisition on mobile devices.
+
+- "A busca da verdade e justiça pela ciência."
+- Daniel Avilla é professor de Forense em Dispositivos Móveis em diversas instituições renomadas, incluindo a Academia de Forense Digital (AFD), a UCAPEM GROUP no Equador, o curso de Pós-Graduação em Investigação Digital da WB Educacional, a Faculdade Vincit e a MM Forense. Além de seu papel acadêmico, Daniel é Agente de Polícia Civil no Estado de São Paulo e atua como Vice-Diretor de Tecnologia na Associação Nacional dos Peritos em Computação Forense (APECOF). Formado em Análise de Sistemas e com especialização em Perícia Forense Computacional, Daniel possui expertise técnica avançada em Dispositivos Móveis e métodos de Extração Avançada (como Chip Off, EDL e ISP), certificada pela AFD. Com uma trajetória de pesquisa em tecnologia iniciada em 1998, ele é o criador da "Avilla Forensics" — uma ferramenta gratuita, amplamente reconhecida e premiada internacionalmente, que otimiza a aquisição forense em dispositivos móveis.
+
+- "La búsqueda de la verdad y la justicia a través de la ciencia."
+- Daniel Avilla es profesor de Forense en Dispositivos Móviles en varias instituciones reconocidas, incluidas la Academia de Forense Digital (AFD), UCAPEM GROUP en Ecuador, el Programa de Posgrado en Investigación Digital de WB Educacional, la Facultad Vincit y MM Forense. Además de su rol académico, Daniel se desempeña como Agente de Policía Civil en el Estado de São Paulo y como Vice-Director de Tecnología en la Asociación Nacional de Peritos en Computación Forense (APECOF). Posee una licenciatura en Análisis de Sistemas y una especialización en Pericia Forense Computacional. Daniel cuenta con experiencia técnica avanzada en Dispositivos Móviles y métodos de Extracción Avanzada (como Chip Off, EDL e ISP), certificada por la AFD. Con una trayectoria de investigación en tecnología que comenzó en 1998, es el creador de Avilla Forensics, una herramienta gratuita, ampliamente reconocida y premiada internacionalmente, que optimiza la adquisición forense en dispositivos móviles.
 
 ## 🤖 Contacts
 - [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/daniel-a-avilla-0987/)](https://www.linkedin.com/in/daniel-a-avilla-0987/)
@@ -37,19 +103,37 @@ Thanks for the votes, without you this would not be possible.
 
 ## 🌐 Download
 
-### (NEW) Avilla Forensics 3.6
+### **** (NEW) **** Avilla Forensics 3.8:
 
-**Download Setup-Forensics-3-6.exe:**
+- SIZE: 5,18 GB
+- Hash Sha-256: 7efde76e307dd0853eb89032b4093be52b882715e2a6fd6c09fed6b9a6462dd6
+- Hash Sha-512: e0946d71a3b241bdece6ca8cbb370fee29fd43c0ecbcd96e7c95090342d7005952c2254629c4d0232d355df1893980d0f77b4ad3e72542a2be5f6cbf7db8e69c
 
-- SIZE: 2,53 GB
-- HASH SHA-256: 580653BB264CC3E3759FCA1FDED13CFD72D5DF7ADAB20C2DDCAC1D5817F1CD35
+- Link 01: https://drive.google.com/file/d/1JD_aWeVIP_DkNbRJUZas8Em6wUpy-C2M/view?usp=sharing 
+- Link 02: https://drive.google.com/file/d/1PTg2qKq27twdTKVWaz4C7v0JVSwVxqZW/view?usp=sharing
+
+- Atenção, descompacte a ferramenta em "C:\Forensics-3-8"
+- Atención, descomprime la herramienta "C:\Forensics-3-8"
+- Attention, unzip the tool in "C:\Forensics-3-8" 
+- ## Password: 1234
+
+### Complementary pack with 400 applications for Downgrade:
+
+- SIZE: 4,91 GB
+- Hash Sha-256: 622c51d3c5ea40266e9e8cb977a46949227a09602199567e9ef2ecf7d3653281
+- Hash Sha-512: d48cd0a38546d80cad2ae2303260921eb286763e19c93e4ea844d666703d068b1e55a67ff93ad7973c31304cd991e5e15b18b7f6939eb86cd24b507f01670ed9
   
-- Link 01: https://drive.google.com/u/0/uc?id=1t1FyltnAx2GpvsSMMyhV-nGSLYlBLlI4&export=download
-- Link 02: https://drive.google.com/u/0/uc?id=1CpZ6I1H4nO5N_WjmkUqw3BpCMYaUkrU2&export=download
-- Link 03: https://drive.google.com/u/0/uc?id=133SyqurFzFB-ClO0J84SXUzNC_tm_I1T&export=download
+- Link 01: https://drive.google.com/file/d/1PZYhnVFpM391f9BSUxAV0pBZIJEN5ydo/view?usp=sharing
+
+- Atenção, descompacte em "C:\Forensics-3-8\down"
+- Atención, descomprime "C:\Forensics-3-8\down"
+- Attention, unzip in "C:\Forensics-3-8\down" 
+- ## Password: 1234
+  
+- Source of apks: https://djangofaiola.blogspot.com/2024/10/happy-3rd-birthday-to-dfapkdngrader.html  
 
 ## 🚀 License
-Avilla Forensics - Copyright (C) 2023 – Daniel Hubscher Avilla 
+Avilla Forensics - Copyright (C) 2024 – Daniel Hubscher Avilla 
 
 This program is free software: you can redistribute it and/or modify 
 it under the terms of the GNU General Public License as published by 
